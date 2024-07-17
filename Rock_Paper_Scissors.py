@@ -10,11 +10,11 @@ if player1Move == "R" or player1Move =="r":
   if player2Move=="R" or player2Move =="r":
     print("You both picked Rock! It's a draw!")
   elif player2Move == "S" or player2Move == "s":
-    print("Player1 destroys Player2's Scissors with their rock!")
+    print("Player1 wins over Player2's Scissors with their rock!")
   elif player2Move=="P" or player2Move =="p":
     print("Player1's Rock loses against Player2's Paper!")
   else:
-    print("Invalid Move Player 2!")
+    print("Invalid Move, Player 2!")
 elif player1Move=="P"or player1Move == "p":
   if player2Move=="R" or player2Move =="r":
     print("Player1's Paper wins over Player2's rock!")
@@ -30,7 +30,7 @@ elif player1Move=="S" or player1Move =="s":
   elif player2Move=="S" or player2Move == "s":
     print("You both chose scissors! It's a draw!")
   elif player2Move=="P" or player2Move == "p":
-    print("Player1's Scissors win over Player2's paper!")
+    print("Player1's Scissors wins over Player2's paper!")
   else:
     print("Invalid Move Player 2!")
 else:
